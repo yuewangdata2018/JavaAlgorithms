@@ -26,7 +26,7 @@ public class Solution {
     public List<List<Integer>> binaryTreePathSum(TreeNode root, int target) {
         // write your code here
         List<List<Integer>> result = new ArraryList<>(); 
-        if (root.val == null){
+        if (root == null){
             return result;
         }
         ArrayList<Integer> path = new ArrayList<Integer>();
